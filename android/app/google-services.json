@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "529267175681",
+    "project_id": "mynotes-c3164",
+    "storage_bucket": "mynotes-c3164.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529267175681:android:be6d81d01af7502a942b00",
+        "android_client_info": {
+          "package_name": "com.ridemate.student.benin.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529267175681-vdlj805pp102lfqa02o542h3rm2jr7il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiRw_RmConRT78Vc-G675AG9W9bUsbvoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529267175681-vdlj805pp102lfqa02o542h3rm2jr7il.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
