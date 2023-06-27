@@ -72,10 +72,16 @@ class _LoginViewState extends State<LoginView> {
                         print(e.code);
                       }
                     },child: const Text('Login'),),
+                    TextButton(onPressed: (){
+                      Navigator.of(context).pushNamedAndRemoveUntil(
+                          '/register/',
+                              (route) => false);
+                    },
+                        child: const Text("Not registered yet? Register here!")),
                   ],
                 );
               default:
-                return const Text("Chargement...");
+                return const CircularProgressIndicator();
             }
           }
       ),
