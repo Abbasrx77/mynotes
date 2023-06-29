@@ -24,6 +24,9 @@ void main() {
       },
       notesRoute: (context){
         return const NotesView();
+      },
+      verifyEmailRoute: (context){
+        return const VerifyEmailView();
       }
     },
     home: const HomePage(),
